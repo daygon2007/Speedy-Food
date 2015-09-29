@@ -1,3 +1,9 @@
+<?php 
+  $message = '';
+  if( isset( $_POST['submit'] ) ) {
+    $message = 'It appears you entered a zip code that was not valid, or we do not serve your area yet. Please try another zip code.';
+  }
+?>
 <!doctype html>
 <html>
 <head>
@@ -20,6 +26,7 @@
     	<h1>Needy Speedy Fast Food Delivery?</h1>
         <h2>Enter your zipcode below and begin ordering!</h2>
         <form action="redirect.php" method="POST">
+          <p style='color: purple; font-style: italic;'><?php echo $message; ?></p>
         	<label for="zipcode">Please Enter Zip:</label><br>
 <input id='zipcode' name='zipcode' type="text" required placeholder="77449"><br>
             <input id='submit' name='submit' type="submit" value="Submit">

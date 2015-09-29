@@ -40,7 +40,7 @@
   }
 
   function validate_input( $input ) {
-    return true;
+    return preg_match("#[0-9]{5}#", $input); 
   }
 
 ?>
