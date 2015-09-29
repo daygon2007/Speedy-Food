@@ -17,10 +17,10 @@
     <div class="row">
     	<h1>Needy Speedy Fast Food Delivery?</h1>
         <h2>Enter your zipcode below and begin ordering!</h2>
-        <form action="" method="put">
+        <form action="redirect.php" method="put">
         	<label for="zipcode">Please Enter Zip:</label><br>
-<input type="text" required placeholder="77449"><br>
-            <input type="submit" value="Submit">
+<input id='zipcode' name='zipcode' type="text" required placeholder="77449"><br>
+            <input id='submit' name='submit' type="submit" value="Submit">
         </form>
     </div>
 </div>
