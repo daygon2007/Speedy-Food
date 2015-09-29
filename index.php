@@ -12,7 +12,7 @@
 <div id="bg-overlay">
 <div class="container" id="content">
 	<div class="row">
-    	<img src="http://www.placehold.it/300x200?text=Speedy+Food+Logo" alt="Speedy Food Delivery Service">
+    	<img src="landing-page-assets/images/speedy-food-logo.png" alt="Speedy Food Delivery Service">
     </div>
     <div class="row">
     	<h1>Needy Speedy Fast Food Delivery?</h1>
