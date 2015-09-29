@@ -24,7 +24,7 @@
     </div>
     <div class="row">
     	<h1>Needy Speedy Fast Food Delivery?</h1>
-        <h2>Enter your zipcode below and begin ordering!</h2>
+        <h2>Enter your zip code below and begin ordering!</h2>
         <form action="redirect.php" method="POST">
           <p style='color: purple; font-style: italic;'><?php echo $message; ?></p>
         	<label for="zipcode">Please Enter Zip:</label><br>

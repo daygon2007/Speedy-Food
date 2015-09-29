@@ -32,6 +32,21 @@ input[type=text]{
 	padding:5px 7px;
 	font-size:1.5em;
 }
+input[type=submit]{
+	border: medium solid #C8252C;
+	background: rgba(255,255,255,.5);
+	box-shadow:none;
+	transition:ease-in-out 0.3s;
+	padding: 5px 7px;
+	border-radius:5px;
+	font-size:1.5em;
+	margin-top: 15px;
+	color:#333;
+}
+input[type=submit]:hover{
+	background: #C8252C;
+	color: #fff;
+}
 h1, h2{
 	font-family: 'Oswald', sans-serif;
 }
