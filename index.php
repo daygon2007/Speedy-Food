@@ -6,6 +6,8 @@
 <meta name="description" content="Speedy Food is a restaurant delivery service featuring online food ordering to Katy, Texas & Surrounding Areas. Order from your favorite local restaurants today!">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="landing-page-assets/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -17,7 +19,7 @@
     <div class="row">
     	<h1>Needy Speedy Fast Food Delivery?</h1>
         <h2>Enter your zipcode below and begin ordering!</h2>
-        <form action="redirect.php" method="put">
+        <form action="redirect.php" method="POST">
         	<label for="zipcode">Please Enter Zip:</label><br>
 <input id='zipcode' name='zipcode' type="text" required placeholder="77449"><br>
             <input id='submit' name='submit' type="submit" value="Submit">
@@ -38,6 +40,4 @@
 </div>
 </div>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </html>
