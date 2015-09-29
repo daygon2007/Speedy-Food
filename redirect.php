@@ -16,8 +16,10 @@
       77090
     )
   );
-  $katy_url = 'http://google.com';
-  $spring_url = 'http://yahoo.com';
+  $urls = array(
+    'katy' => 'http://google.com',
+    'spring' => 'http://yahoo.com'
+  );
   
   if( isset( $_POST['submit'] ) ) {
     
@@ -26,13 +28,10 @@
     if($valid) {
       foreach( $zipcodes as $key => $zips ) {
         if( in_array( $input, $zips ) ) {
-          if( $key == 'katy' ) {
-            header("Location:$katy_url");
-          } elseif( $key == 'spring' ) {
-            header("Location:$spring_url");
-          }
+          header("Location:".$urls[$key]);
         }
       }
+      include('index.php');
     } else {
       include('index.php');
     }
