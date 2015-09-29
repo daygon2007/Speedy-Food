@@ -37,7 +37,7 @@
 	<div class="container">
     	<div class="row">
         	<div class="col-md-6">
-        	<p>Page by <a href="http://www.jonathon-harrelson.com" target="_blank">Jonathon Harrelson</a> & <a href="http://matthew-caldwell.com/" target="_blank">Matthew Calwell</a> from <a href="http://www.versatechmarketing.com" target="_blank">VersaTech Marketing</a></p>
+        	<p>Page by <a href="http://www.jonathon-harrelson.com" target="_blank">Jonathon Harrelson</a> & <a href="http://matthew-caldwell.com/" target="_blank">Matthew Caldwell</a> from <a href="http://www.versatechmarketing.com" target="_blank">VersaTech Marketing</a></p>
             </div>
             <div class="col-md-6" id="speedyfood-copyright">
             	<p>All content is subject to Copyright by Speedy Food Delivery Services &copy; <?php echo date("Y") ?></p>
