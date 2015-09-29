@@ -24,7 +24,7 @@ body{
 	width:100vw;
 }
 #content{
-	padding-top:15vh;
+	padding-top:10vh;
 	text-align: center;
 }
 input[type=text]{
@@ -49,5 +49,6 @@ h1, h2{
 	text-align:right;
 }
 img{
-	width:75%;
+	max-width:75%;
+	max-height:40vh;
 }
