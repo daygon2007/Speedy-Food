@@ -7,7 +7,8 @@
       77449,
       77450,
       77493,
-      77494
+      77494,
+	  77084
     ),
     'spring' => array(
       77068,
@@ -17,8 +18,8 @@
     )
   );
   $urls = array(
-    'katy' => 'http://google.com',
-    'spring' => 'http://yahoo.com'
+    'katy' => 'http://katy.speedyfood.net',
+    'spring' => 'http://springcypress.speedyfood.net'
   );
   
   if( isset( $_POST['submit'] ) ) {

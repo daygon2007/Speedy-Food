@@ -4,7 +4,7 @@ html{
 	height:100%;
 }
 body{
-	background: url(images/background.jpg) center center no-repeat;
+	background: url(images/background.jpg) top center no-repeat;
 	-webkit-background-size: cover !important;
   	-moz-background-size: cover;
  	 -o-background-size: cover;
