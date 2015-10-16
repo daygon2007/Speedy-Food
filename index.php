@@ -1,4 +1,5 @@
 <?php 
+  // Testing stuff
   $message = '';
   if( isset( $_POST['submit'] ) ) {
     $message = 'It appears you entered a zip code that was not valid, or we do not serve your area yet. Please try another zip code.';
